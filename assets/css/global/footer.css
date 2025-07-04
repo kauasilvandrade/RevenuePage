@@ -1,0 +1,11 @@
+footer {
+  margin-top: 1rem;
+
+  p {
+    color: var(--text-color-on-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+  }
+}

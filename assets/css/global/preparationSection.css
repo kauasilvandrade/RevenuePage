@@ -1,0 +1,7 @@
+.preparationSection {
+  padding-block: 1.5rem;
+
+  p + p {
+    margin-top: 1.4rem;
+  }
+}

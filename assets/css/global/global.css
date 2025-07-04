@@ -1,0 +1,54 @@
+@import url(variable.css);
+@import url(aboutSection.css);
+@import url(ingredientsSection.css);
+@import url(preparationSection.css);
+@import url(footer.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  background: url(../../images/bg-image.png) no-repeat center/cover var(--background-color);
+  padding-block: 3rem;
+}
+
+h1, h2 {
+  color: var(--text-color-primary);
+  margin-bottom: .25rem;
+}
+
+h1 {
+  font: var(--heading1);
+}
+
+h2 {
+  font: var(--heading2);
+}
+
+p, li {
+  font: var(--paragraph);
+  color: var(--text-color-secondary);
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  background-color: var(--surface-color);
+  padding: 1.5rem;
+  border-radius: 24px;
+
+  img {
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  main {
+    padding-left: 1.5rem;
+  }
+
+}

@@ -1,0 +1,15 @@
+:root {
+  /* COLORS */
+  --background-color: #573824;
+  --surface-color: #F0E8C2;
+
+  --text-color-primary: #291B1A;
+  --text-color-secondary: #573A37;
+  --text-color-on-bg: #F0E8C2;
+  
+  /* TYPOGRAPHY */
+  --font-family: "Alice", serif;
+  --heading1: 400 2.5rem/140% var(--font-family);
+  --heading2: 400 1.5rem/150% var(--font-family);
+  --paragraph: 400 1rem/150% var(--font-family);
+}
